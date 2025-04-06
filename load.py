@@ -1,4 +1,3 @@
-# load.py
 import pandas as pd
 
 # Load the Excel files
