@@ -62,9 +62,9 @@ def final_advisory_response(student_context, user_question, raw_response):
     final_output = raw_response.strip()
     final_output += "\n\n📌 **Elective Availability Check (Term 2403):**"
     if available:
-        final_output += f"\n✅ Available: {', '.join(available)}"
+        final_output += f"\n Available: {', '.join(available)}"
     if unavailable:
-        final_output += f"\n❌ Not Available: {', '.join(unavailable)}"
+        final_output += f"\n Not Available: {', '.join(unavailable)}"
 
     final_output += "\n\n🎓 **Final Advisory Conclusion:** Based on your academic strengths and the current term offerings, you are encouraged to register for the available electives listed above. For unavailable courses, consider them in future terms. Good luck!"
 
